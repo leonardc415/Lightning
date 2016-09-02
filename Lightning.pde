@@ -19,7 +19,7 @@ void lightning()
 	int g=(int)(Math.random()*255)
 	int b=(int)(Math.random()*255)
 	stroke(r, g, b);
-	while (startX<endX) 
+	while (startX<width) 
 		{
 		line(startX, startY, 0, 150)
 		startX = startX + (int)(Math.random()*9)
