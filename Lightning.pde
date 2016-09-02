@@ -26,8 +26,8 @@ void lightning()
 		line(startX, startY, endX, endY)
 			}
 }
-/*void mousePressed()
+void mousePressed()
 {
 	redraw();
-}*/
+}
 
