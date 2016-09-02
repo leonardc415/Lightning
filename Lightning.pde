@@ -21,9 +21,9 @@ void lightning()
 	stroke(r, g, b);
 	while (startX<width) 
 		{
-		line(startX, startY, 0, 150)
-		startX = startX + (int)(Math.random()*9)
-		startY = startY + (int)(Math.random()*18)-9
+		endX = startX + (int)(Math.random()*9)
+		endY = startY + (int)(Math.random()*18)-9
+		line(startX, startY, endX, endY)
 			}
 }
 /*void mousePressed()
