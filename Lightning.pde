@@ -15,9 +15,9 @@ void draw()
 
 void lightning()
 {
-	int r=(int)(Math.random()*255)
-	int g=(int)(Math.random()*255)
-	int b=(int)(Math.random()*255)
+	int r=(int)(Math.random()*255);
+	int g=(int)(Math.random()*255);
+	int b=(int)(Math.random()*255);
 	stroke(r, g, b);
 	while (startX<width) 
 		{
